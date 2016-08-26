@@ -1,1 +1,66 @@
 
+/*body {
+	background-image: url('../images/outerspace_landscape.jpeg');
+}*/
+
+nav {
+	background-color: gray;
+	height: 60px;
+	position: fixed;
+	border: 1px solid black;
+	width: 100%;
+
+}
+
+.logo {
+	  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid black;
+}
+ 
+
+body {
+	background-image: url('../images/outerspace_landscape.jpeg');
+	background-size:cover;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li::after {
+  content: "|";
+  margin-left: 5px;
+}
+
+.dotted-box {
+	width: 600px;
+	height: 300px;
+	border: 10px green dotted;
+	position: relative;
+	top: 172px;
+	margin:0 auto;
+}
+.cat-image {
+	position: relative;
+	top: -100px;
+	right: 120px;
+	width: 200px;
+	height: 200px;
+}
+.dog-image {
+	position: relative;
+
+	width: 200px;
+	height: 200px;
+	top: 200px;
+    left: 259px;
+}
